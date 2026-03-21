@@ -1,4 +1,4 @@
-# Biosamples-mcp
+# Biosamples - MCP
 
 A Model Context Protocol (MCP) server for biological sample
 checklist validation and recommendation.

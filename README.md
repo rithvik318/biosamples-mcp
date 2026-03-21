@@ -26,7 +26,7 @@ Exposes 3 MCP tools that an LLM (e.g. Claude) can call:
 ```
 LLM / MCP Client
       ↓  MCP protocol (stdio)
-  server.py  ←  your MCP server
+  server.py  ←  MCP server
       ↓
   ┌─────────────────────────────────┐
   │ Tool 1: validate_sample         │──→ BioValidator API

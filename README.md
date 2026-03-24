@@ -23,17 +23,9 @@ Exposes 3 MCP tools that an LLM (e.g. Claude) can call:
 
 ## Architecture
 
-```
-LLM / MCP Client
-      ↓  MCP protocol (stdio)
-  server.py  ←  MCP server
-      ↓
-  ┌─────────────────────────────────┐
-  │ Tool 1: validate_sample         │──→ BioValidator API
-  │ Tool 2: get_checklist_info      │──→ ENA Browser XML API
-  │ Tool 3: recommend_checklist     │──→ ENA Browser XML API (x15)
-  └─────────────────────────────────┘
-```
+
+<img width="807" height="461" alt="image" src="https://github.com/user-attachments/assets/5fff6c8a-98c6-44d6-99bb-9e5834f00698" />
+
 
 ---
 
